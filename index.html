@@ -3,36 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>360 Residential & Commercial Services LLC</title>
+
+  <title>360 Residential & Commercial Services LLC | Buffalo Property Services</title>
+
+  <meta name="description" content="360 Residential & Commercial Services LLC provides lawn care, landscaping, junk removal, moving services, and commercial property maintenance in Buffalo NY and surrounding areas.">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- TOP BAR -->
-<header class="topbar">
-  <div class="logo">360 Services Team</div>
-  <div class="rating">⭐⭐⭐⭐⭐ 5.0 Rating</div>
+<!-- STICKY CALL BUTTON -->
+<a href="tel:7162531011" class="call-button">📞 Call Now</a>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">360 SERVICES TEAM</div>
+  <div class="rating">⭐⭐⭐⭐⭐ 5.0 Rated</div>
 </header>
 
 <!-- HERO -->
-<section class="hero">
-  <div class="hero-content">
-    <h1>One Call. Complete Property Solutions.</h1>
+<section class="hero-dark">
+  <h1>One Call. Complete Property Solutions.</h1>
 
-    <p class="tagline">
-      360 Residential & Commercial Services LLC provides reliable residential and commercial property services,
-      handling everything from lawn maintenance and landscaping to moving assistance and junk removal.
-    </p>
+  <p>
+    360 Residential & Commercial Services LLC provides reliable residential and commercial property services across Buffalo and surrounding areas.
+    From lawn care and landscaping to junk removal, moving, and commercial maintenance — we handle it all.
+  </p>
 
-    <a href="#contact" class="btn">Get Free Estimate</a>
-    <a href="tel:+17165551234" class="btn secondary">Call Now</a>
+  <div class="buttons">
+    <a href="#contact" class="btn">Get Free Quote</a>
+    <a href="tel:7162531011" class="btn-outline">Call Now</a>
   </div>
-</section>
-
-<!-- INSPIRATION IMAGE -->
-<section class="inspo">
-  <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80" alt="Property Services">
 </section>
 
 <!-- SERVICES -->
@@ -40,38 +42,57 @@
   <h2>Our Services</h2>
 
   <div class="grid">
-    <div class="card">🌿 Lawn Care</div>
-    <div class="card">🌳 Landscaping</div>
-    <div class="card">🗑 Junk Removal</div>
-    <div class="card">🚚 Moving Services</div>
-    <div class="card">🏢 Commercial Services</div>
+    <a href="services/lawn-care.html" class="card">🌿 Lawn Care</a>
+    <a href="services/landscaping.html" class="card">🌳 Landscaping</a>
+    <a href="services/junk-removal.html" class="card">🗑 Junk Removal</a>
+    <a href="services/moving.html" class="card">🚚 Moving Services</a>
+    <a href="services/commercial.html" class="card">🏢 Commercial</a>
+  </div>
+</section>
+
+<!-- BEFORE AFTER -->
+<section class="gallery">
+  <h2>Before & After Work</h2>
+
+  <div class="gallery-grid">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+    <img src="https://images.unsplash.com/photo-1598902108854-10e335adac99">
+    <img src="https://images.unsplash.com/photo-1598902108792-3c1c7d7d7d7d">
   </div>
 </section>
 
 <!-- WHY US -->
 <section class="why">
   <h2>Why Choose Us</h2>
-  <p>
-    Reliable. Professional. Fast. One team for everything your property needs.
-  </p>
+
+  <ul>
+    <li>✔ Residential & Commercial Services</li>
+    <li>✔ Fast & Reliable Team</li>
+    <li>✔ Free Estimates</li>
+    <li>✔ Fully Equipped Crew</li>
+    <li>✔ Serving Buffalo & Surrounding Areas</li>
+  </ul>
 </section>
 
-<!-- CONTACT -->
+<!-- CONTACT FORM -->
 <section id="contact" class="contact">
-  <h2>Contact Us</h2>
+  <h2>Request a Quote</h2>
 
-  <form>
-    <input type="text" placeholder="Name" required>
-    <input type="email" placeholder="Email" required>
-    <input type="text" placeholder="Service Needed">
-    <textarea placeholder="Tell us about your project"></textarea>
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="text" name="phone" placeholder="Phone Number" required>
+    <input type="text" name="service" placeholder="Service Needed">
+    <textarea name="message" placeholder="Describe your project"></textarea>
+
     <button type="submit">Send Request</button>
   </form>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <p>© 2026 360 Residential & Commercial Services LLC</p>
+  <p>360 Residential & Commercial Services LLC</p>
+  <p>Buffalo, Amherst, Cheektowaga, Williamsville & Surrounding Areas</p>
 </footer>
 
 </body>
