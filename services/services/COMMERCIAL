@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Commercial Services</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<a href="tel:7162531011" class="call-button">📞 Call Now</a>
+
+<header class="header">
+  <div class="logo">Commercial Services</div>
+</header>
+
+<section class="hero-dark">
+  <h1>Commercial Property Maintenance</h1>
+</section>
+
+<section class="services">
+  <ul>
+    <li>Business Landscaping</li>
+    <li>Property Maintenance</li>
+    <li>Cleanouts</li>
+  </ul>
+</section>
+
+<section class="contact">
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input name="name">
+    <input name="phone">
+    <textarea name="message"></textarea>
+    <button>Send</button>
+  </form>
+</section>
+
+</body>
+</html>
