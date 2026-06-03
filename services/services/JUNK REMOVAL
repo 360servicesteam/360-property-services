@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Junk Removal Services</title>
+<title>Junk Removal | 360 Services</title>
 <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
 
-<a href="tel:7162531011" class="call-button">📞 Call Now</a>
+<a href="tel:7162531011" class="call-button">📞 Call</a>
 
 <header class="header">
   <div class="logo">Junk Removal</div>
 </header>
 
-<section class="hero-dark">
-  <h1>Fast Junk Removal in Buffalo NY</h1>
+<section class="hero">
+  <h1>Fast Junk Removal</h1>
+  <div class="badge">⭐⭐⭐⭐⭐ Reliable Service</div>
+  <p>Cleanouts, furniture removal, debris hauling.</p>
 </section>
 
-<section class="services">
-  <ul>
-    <li>Garage Cleanouts</li>
-    <li>Furniture Removal</li>
-    <li>Estate Cleanouts</li>
-    <li>Construction Debris</li>
-  </ul>
+<section>
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card">Garage Cleanouts</div>
+    <div class="card">Furniture Removal</div>
+    <div class="card">Estate Cleanouts</div>
+    <div class="card">Debris Removal</div>
+  </div>
 </section>
 
-<section class="contact">
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<section>
+  <h2>Quote</h2>
+  <form action="https://formspree.io/f/YOUR_FORM_ID">
     <input name="name">
     <input name="phone">
-    <textarea name="message"></textarea>
+    <textarea></textarea>
     <button>Send</button>
   </form>
 </section>
