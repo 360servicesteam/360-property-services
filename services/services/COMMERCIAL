@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Commercial Services</title>
+<title>Commercial Services | 360 Services</title>
 <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
 
-<a href="tel:7162531011" class="call-button">📞 Call Now</a>
+<a href="tel:7162531011" class="call-button">📞 Call</a>
 
 <header class="header">
   <div class="logo">Commercial Services</div>
 </header>
 
-<section class="hero-dark">
-  <h1>Commercial Property Maintenance</h1>
+<section class="hero">
+  <h1>Commercial Property Services</h1>
+  <div class="badge">⭐⭐⭐⭐⭐ Business Trusted</div>
+  <p>Maintenance, landscaping, cleanouts for businesses.</p>
 </section>
 
-<section class="services">
-  <ul>
-    <li>Business Landscaping</li>
-    <li>Property Maintenance</li>
-    <li>Cleanouts</li>
-  </ul>
+<section>
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card">Property Maintenance</div>
+    <div class="card">Landscaping</div>
+    <div class="card">Cleanouts</div>
+  </div>
 </section>
 
-<section class="contact">
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<section>
+  <h2>Quote</h2>
+  <form action="https://formspree.io/f/YOUR_FORM_ID">
     <input name="name">
     <input name="phone">
-    <textarea name="message"></textarea>
+    <textarea></textarea>
     <button>Send</button>
   </form>
 </section>
