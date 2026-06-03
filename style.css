@@ -5,7 +5,6 @@ body {
   color: white;
 }
 
-/* CALL BUTTON */
 .call-button {
   position: fixed;
   bottom: 20px;
@@ -19,7 +18,6 @@ body {
   z-index: 999;
 }
 
-/* HEADER */
 .header {
   display: flex;
   justify-content: space-between;
@@ -27,7 +25,6 @@ body {
   background: #111;
 }
 
-/* HERO */
 .hero-dark {
   padding: 120px 20px;
   text-align: center;
@@ -38,7 +35,6 @@ body {
   font-size: 42px;
 }
 
-/* BUTTONS */
 .btn {
   background: gold;
   color: black;
@@ -53,9 +49,9 @@ body {
   color: gold;
   padding: 12px 20px;
   display: inline-block;
+  text-decoration: none;
 }
 
-/* SERVICES */
 .services {
   padding: 60px;
   text-align: center;
@@ -63,7 +59,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 15px;
 }
 
@@ -75,7 +71,6 @@ body {
   border: 1px solid #333;
 }
 
-/* GALLERY */
 .gallery {
   padding: 60px;
   text-align: center;
@@ -87,7 +82,11 @@ body {
   border-radius: 10px;
 }
 
-/* CONTACT */
+.why {
+  padding: 60px;
+  text-align: center;
+}
+
 .contact {
   padding: 60px;
   text-align: center;
@@ -102,7 +101,14 @@ input, textarea {
   color: white;
 }
 
-/* FOOTER */
+button {
+  padding: 12px;
+  background: gold;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
 footer {
   padding: 30px;
   text-align: center;
